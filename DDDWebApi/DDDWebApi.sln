@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebApi.Domain", "3.0 Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebApi.Domain.Core", "3.0 Domain\DDDWebApi.Domain.Core\DDDWebApi.Domain.Core.csproj", "{732A71CA-40AF-4591-B884-FCA7D61C1761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebApi.Domain.Services", "3.0 Domain\DDDWebApi.Domain.Services\DDDWebApi.Domain.Services.csproj", "{DA3DA007-A876-447F-97E0-EA95F723D3C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,18 @@ Global
 		{732A71CA-40AF-4591-B884-FCA7D61C1761}.Release|x64.Build.0 = Release|Any CPU
 		{732A71CA-40AF-4591-B884-FCA7D61C1761}.Release|x86.ActiveCfg = Release|Any CPU
 		{732A71CA-40AF-4591-B884-FCA7D61C1761}.Release|x86.Build.0 = Release|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Release|x64.Build.0 = Release|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +70,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{236BE58A-F671-45B2-9054-384AEFA0EC5E} = {6D005A3A-D17D-4F57-9D6D-589B95901D91}
 		{732A71CA-40AF-4591-B884-FCA7D61C1761} = {6D005A3A-D17D-4F57-9D6D-589B95901D91}
+		{DA3DA007-A876-447F-97E0-EA95F723D3C8} = {6D005A3A-D17D-4F57-9D6D-589B95901D91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F235FAB0-D132-4139-9E6B-4E23DA29EEEA}
