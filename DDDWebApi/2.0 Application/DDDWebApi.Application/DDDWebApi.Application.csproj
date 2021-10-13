@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3.0 Domain\DDDWebApi.Domain.Core\DDDWebApi.Domain.Core.csproj" />
+    <ProjectReference Include="..\..\4.0 Infrastruture\4.2 CrossCutting\DDDWebApi.Infrastruture.CrossCutting.Adapter\DDDWebApi.Infrastruture.CrossCutting.Adapter.csproj" />
+    <ProjectReference Include="..\DDDWebApi.Application.DTO\DDDWebApi.Application.DTO.csproj" />
+
+  </ItemGroup>
+
+</Project>
