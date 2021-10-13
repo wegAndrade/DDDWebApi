@@ -10,7 +10,7 @@ namespace DDDWebApi.Presentation.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class ProdutosController : ControllerBase
+    public class ProdutosController : MainController
     {
         private readonly IApplicationServiceProduto _applicationServiceProduto;
 

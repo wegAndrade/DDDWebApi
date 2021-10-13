@@ -10,7 +10,7 @@ namespace DDDWebApi.Presentation.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class ClientesController : ControllerBase
+    public class ClientesController : MainController
     {
 
         private readonly IApplicationServiceCliente _applicationServiceCliente;
