@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\2.0 Application\DDDWebApi.Application.DTO\DDDWebApi.Application.DTO.csproj" />
+    <ProjectReference Include="..\..\..\3.0 Domain\DDDWebApi.Domain\DDDWebApi.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

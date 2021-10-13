@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ 4.1 Data\DDDWebApi.Infrastruture.Repository\DDDWebApi.Infrastruture.Repository.csproj" />
+    <ProjectReference Include="..\..\..\2.0 Application\DDDWebApi.Application\DDDWebApi.Application.csproj" />
+    <ProjectReference Include="..\..\..\3.0 Domain\DDDWebApi.Domain.Services\DDDWebApi.Domain.Services.csproj" />
+    <ProjectReference Include="..\DDDWebApi.Infrastruture.CrossCutting.Adapter\DDDWebApi.Infrastruture.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>
